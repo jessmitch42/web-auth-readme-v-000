@@ -1280,3 +1280,43 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 00:51:22 -0500
+
+
+Started GET "/" for 184.160.76.83 at 2018-03-02 21:53:19 +0000
+Cannot render console from 184.160.76.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=ORPD1ABWVCY3EZ1KE5KMWAIALULAPEB0NLJKKNM23QM4GOTA&response_type=code&redirect_uri=http%3A%2F%2F159.203.91.59%3A30002%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 13ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=5XC1C1341MFBSMSDZRNIE1SRW2SI1OG1FD003V5MJJBNY2V0" for 184.160.76.83 at 2018-03-02 21:53:27 +0000
+Cannot render console from 184.160.76.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"5XC1C1341MFBSMSDZRNIE1SRW2SI1OG1FD003V5MJJBNY2V0"}
+Redirected to http://159.203.91.59:30002/
+Completed 302 Found in 71ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 184.160.76.83 at 2018-03-02 21:53:27 +0000
+Cannot render console from 184.160.76.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=ORPD1ABWVCY3EZ1KE5KMWAIALULAPEB0NLJKKNM23QM4GOTA&response_type=code&redirect_uri=http%3A%2F%2F159.203.91.59%3A30002%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=DL5D5SEYCZKZJUQN0WEXCWPDGNGR44XHGDBEDYPSNRNFMWUF" for 184.160.76.83 at 2018-03-02 21:53:33 +0000
+Cannot render console from 184.160.76.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"DL5D5SEYCZKZJUQN0WEXCWPDGNGR44XHGDBEDYPSNRNFMWUF"}
+Redirected to http://159.203.91.59:30002/
+Completed 302 Found in 44ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 184.160.76.83 at 2018-03-02 21:53:33 +0000
+Cannot render console from 184.160.76.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=ORPD1ABWVCY3EZ1KE5KMWAIALULAPEB0NLJKKNM23QM4GOTA&response_type=code&redirect_uri=http%3A%2F%2F159.203.91.59%3A30002%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
